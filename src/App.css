@@ -1,11 +1,11 @@
 html{
   background-color: #EDEFEC;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  
 }
 #root {
   display: flex;
   flex-direction: row;
-  
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   justify-content: center;
   height: 100vh;
   margin-bottom: 12rem;
