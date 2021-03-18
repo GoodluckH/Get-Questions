@@ -1,6 +1,7 @@
 import "./App.css";
 import React, { useState } from "react";
 
+
 function App() {
   const [input, setInput] = useState("");
   const [questions, setQuestions] = useState([]);
@@ -37,8 +38,12 @@ function App() {
     copyToClipBoard(text);
     e.target.innerText = "Copied!";
   };
+
+
+
   return (
     <div className="App">
+  
       <textarea
         onInput={handleChange}
         data-gramm_editor="false"
