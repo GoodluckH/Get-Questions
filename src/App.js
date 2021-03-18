@@ -9,7 +9,7 @@ function App() {
 
   const btn = document.querySelector(".btn");
   const handleChange = (e) => {
-    if (btn.innerText && btn.innerText === "Copied!") {
+    if (btn && btn.innerText === "Copied!") {
       btn.innerText = "Copy Questions";
     }
     generateQ(e.target.value);
